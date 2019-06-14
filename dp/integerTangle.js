@@ -30,7 +30,7 @@ function solution(tangle) {
       tangle[i + 1] = temp;
     }
   }
-//   console.log(tangle);
+  //   console.log(tangle);
   return Math.max(...tangle[tangle.length - 1]);
 }
 
